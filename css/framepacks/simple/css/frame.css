@@ -1,0 +1,51 @@
+/**
+ * Gallery 3 Grey Dragon Theme
+ * Copyright (C) 2006-2010 Serguei Dosyukov TEST
+ *
+ * CSS rules - Frames - Simple
+ */
+
+/* layous.css - Extended Layout - 4 columns ~~~~~~~~~~
+body.g-extended.g-column-4 #g-header,
+body.g-extended.g-column-4 #g-footer,
+body.g-extended.g-column-4 #g-main,
+body.g-extended.g-column-4 #g-main-in { min-width: 978px; } */
+
+/* layous.css - Extended Layout - 4 columns+sidebar ~~
+body.g-extended.g-column-4.g-sidebar-right #g-header,
+body.g-extended.g-column-4.g-sidebar-right #g-footer,
+body.g-extended.g-column-4.g-sidebar-right #g-main,
+body.g-extended.g-column-4.g-sidebar-right #g-main-in,
+body.g-extended.g-column-4.g-sidebar-left #g-header,
+body.g-extended.g-column-4.g-sidebar-left #g-footer,
+body.g-extended.g-column-4.g-sidebar-left #g-main,
+body.g-extended.g-column-4.g-sidebar-left #g-main-in { min-width: 978px; } */
+
+.g-thumbslide .g-description { margin: 0; }
+.g-thumbslide .g-metadata    { margin: 0 0 1px 1px; }
+
+.g-item .g-context-menu { left: 193px; top: 15px; }
+.g-item .g-context-menu:hover { left: 6px; top: 6px; }
+.g-extended .g-item .g-context-menu { left: 170px; top: 12px; }
+.g-extended .g-item .g-context-menu:hover { left: 6px; top: 6px; }
+
+.g-default .g-thumbslide .g-description, .g-expanded .g-thumbslide .g-description, .g-thumbslide .g-metadata { border-color: #ADAEAD; }
+
+.g-thumbcrop img { 
+  display: block;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
+          
+  max-height: 200px;
+}
+.g-thumbcrop > img,
+.g-thumbcrop a > img {
+  margin-right: auto;
+  margin-left: auto;
+}
